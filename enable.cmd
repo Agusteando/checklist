@@ -1,0 +1,1 @@
+tst10.exe /r:enable.txt /o:output.txt

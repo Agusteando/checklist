@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Niconne');
+input[type=checkbox] {
+width: 45px;
+height: 45px;
+display: inline-block;
+float:right;
+}
+.container {
+font-size: 25px;	
+}
+
+li {
+  margin: 0.5em 0;
+  font-size: 35px;
+
+  font-family: 'Alex Brush';
+}
+h1 {
+	padding: 10px;
+	margin-top: 20px;
+  font-family: 'Niconne';
+}
+#wrapper {
+padding-right: 500px;
+padding-left: 100px;
+
+}
+.alert {
+	font-size: 25px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+#results {
+	font-size: 10px;
+	text-align: center;
+}
+#wrapper2 {
+padding: 25px;
+}
+li:nth-child(odd) {background-color: #cccccc0f;}
+.jumbotron {
+	background-image: url("img/paper.png");
+background-repeat: no-repeat;
+background-size: contain;
+background-color: #e9ecef00;
+}
+.progress-bar {
+	background-color: #34d85a;
+	border-width: 2px;
+	border-color: black;
+}
+#bg {
+min-height: 100%;
+min-width: 1024px;
+width: 100%;
+height: auto;
+position: fixed;
+top: 0;
+left: 0;
+z-index:-100;
+background-repeat: no-repeat;
+background-size: cover;
+}
